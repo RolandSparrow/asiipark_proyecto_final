@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(55, 141, 239);
+}
+
+.text-center a{
+    text-decoration: none;
+    color: black;
+}
+
+#icono {
+    position: absolute;
+    background-color: rgb(25, 133, 241);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 17px;
+    margin-left: 72px;
+    border: none;
+}
+
+#icono:hover {
+    background-color: rgb(25, 133, 241);
+
+}
+
+#icono i {
+    color: white;
+    margin-top: -20px;
+    margin-left: -18px;
+    font-size: 2.5rem;
+}
+
+i {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: gray;
+}
