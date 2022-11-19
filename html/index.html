@@ -34,10 +34,10 @@
                         <a class="nav-link" href="#title-advantages">Ventajas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Equipo</a>
+                        <a class="nav-link" href="#members-section-link">Equipo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contactar</a>
+                        <a class="nav-link" href="#section-contact-assipark">Contactar</a>
                     </li>
                 </ul>
                 <form class="">
@@ -164,43 +164,50 @@
     <section id="section-advantages-assipark">
         <div class="container">
             <div class="row">
-                <div class="card-perfil">
-                    <div class="card-nombre">
-                        <img src="../img/candado.jpeg" alt="">
-                        <h2>seguridad y privacidad</h2>
-                    </div>
-                    <div class="card-descripcion">
-                        <p>Mayor confidencialidad e integridad  
-                            con la información del sistema y 
-                            respaldos de la información en la 
-                        nube.</p>
-                    </div>
-                </div>
-                <div class="card-perfil">
-                    <div class="card-nombre">
-                        <img src="../img/lista.jpeg" alt="">
-                        <h2>Optimización y Eficacia</h2>
-                    </div>
-                    <div class="card-descripcion">
-                        <p>Reportes e informes eficientes sobre 
-                            la información de sus parqueaderos 
-                            de manera completa y funcional 
-                            representando datos convenientes.
-                        </p>    
+                <div class="col">
+                    <div class="card-perfil">
+                        <div class="card-nombre">
+                            <img src="../img/candado.jpeg" alt="">
+                            <h2>seguridad y privacidad</h2>
+                        </div>
+                        <div class="card-descripcion">
+                            <p>Mayor confidencialidad e integridad  
+                                con la información del sistema y 
+                                respaldos de la información en la 
+                            nube.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card-perfil">
-                    <div class="card-nombre">
-                        <img src="../img/corazon.jpeg" alt="">
-                        <h2>Acompañamiento</h2>
+                <div class="col">
+                    <div class="card-perfil">
+                        <div class="card-nombre">
+                            <img src="../img/lista.jpeg" alt="">
+                            <h2>Optimización y Eficacia</h2>
+                        </div>
+                        <div class="card-descripcion">
+                            <p>Reportes e informes eficientes sobre 
+                                la información de sus parqueaderos 
+                                de manera completa y funcional 
+                                representando datos convenientes.
+                            </p>    
+                        </div>
                     </div>
-                    <div class="card-descripcion">
-                        <p>Asesoramiento gratuito con el fin de 
-                            garantizar el buen manejo y 
-                            compresión del sistema, junto con 
-                            una vigencia de uso.
-                        </p>
+                </div>
+                <div class="col">
+                    <div class="card-perfil">
+                        <div class="card-nombre">
+                            <img src="../img/corazon.jpeg" alt="">
+                            <h2>Acompañamiento</h2>
+                        </div>
+                        <div class="card-descripcion">
+                            <p>Asesoramiento gratuito con el fin de 
+                                garantizar el buen manejo y 
+                                compresión del sistema, junto con 
+                                una vigencia de uso.
+                            </p>
+                        </div>
                     </div>
+                    <div id="members-section-link"></div>
                 </div>
             </div>
         </div>
@@ -259,6 +266,54 @@
                         </div>
                     </div>
                 </div>
+    </section>
+    <section id="section-contact-assipark">
+        <div id="title-contact">
+            <h1>Contáctanos</h1>
+        </div>
+        <div id="paragraph-contact">
+            <p>Si desea una atención más personalizada bríndanos datos esenciales para comunicarnos</p>
+        </div>
+        <div class="container">
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-6">
+                    <div class="container-forms-contact">
+                        <div class="container_form_1">
+                            <div id="container-input-contact">
+                                <input type="text" placeholder="Nombre" required >
+                                <input type="text" placeholder="Apellido" required>
+                            </div>
+                        </div>
+                        <div class="container_form_2">
+                            <div id="container-input-contact">
+                                <input type="email" placeholder="E-mail" required>
+                                <input type="number" placeholder="Presupuesto" required>
+                            </div>
+                        </div>
+                        <div class="container_form_3">
+                            <div id="container_textarea">
+                                <textarea name="" id="" cols="65" rows="9" placeholder="Corta descripción de la empresa"></textarea>
+                            </div>
+                        </div>
+                        <div class="container-button-contact">
+                            <button onclick=alerta()>Enviar</button>
+                        </div>
+                    </div>
+                <script>
+                    function alerta(container_boton){
+                        alert('se ha enviado la info')
+                    }
+                </script> 
+                </div>
+                <br>
+                <br>
+                <div class="col-6 img-contact" >
+                    <img src="../img/personas chat.png"  alt="">
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>

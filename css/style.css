@@ -165,9 +165,13 @@ body{
     justify-content: center;
     margin-top: 30px;
 }
+
+.row-section-advantages{
+    margin-right: 30px;
+}
+
 .card-perfil{
     margin-top: 4rem;
-    width: 310px;
     padding: 20px;
     box-shadow: 1px 1px 5px rgb(201, 201, 201);
     border: solid rgba(3, 133, 255, 0) 2px;
@@ -248,11 +252,11 @@ border: solid rgb(3, 133, 255) 2px;
 
 
 .nombres {
-    width: 300px;
-    height: 120px;
+    width: 360px;
+    height: 154px;
     margin-top: 20px;
-    margin-left: 70px;
-    border: 1px rgb(83, 83, 83) solid;  
+    margin-left: 28px;
+    border: 1px rgb(83, 83, 83) solid;
 
 }
 
@@ -282,3 +286,84 @@ border: solid rgb(3, 133, 255) 2px;
     font-weight: 400;
 }
 
+
+/*section-contact-assipark*/
+
+#section-contact-assipark{
+    background-color: white;
+}
+
+#title-contact{
+    margin-top: -1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: black;
+}
+
+#paragraph-contact{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 70px;
+}
+
+#paragraph-contact p{
+    color: black;
+}
+
+.container-forms-contact{
+    width: 700px;
+    height: 520px;
+    top: 250px;
+}
+
+.container_form_1 {
+    width: 100%;
+    height: 90px;
+}
+
+.container_form_2 {
+    width: 100%;
+    height: 90px;
+}
+
+.container_form_3 {
+    width: 630px;
+}
+
+.container_form_3 textarea {
+    padding-top: 15px;
+}
+
+#container-input-contact {
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+}
+
+#container-input-contact input{
+    width: 50%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.container-button-contact {
+    padding-top: 15px;
+}
+
+.container-button-contact button {
+    width: 160px;
+    height: 55px;
+    background-color: #00b7d4;
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.img-contact img{
+    margin-top: -108px;
+}
