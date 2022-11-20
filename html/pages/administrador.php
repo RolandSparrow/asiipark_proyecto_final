@@ -33,11 +33,17 @@
                     <span class="align-middle">Inicio</span>
                 </a>
 			</li>
-			<li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="../page/usuario.html">
-                    <span class="align-middle">Usuarios</span>
-                </a>
-			</li>
+			<div class="dropdown mt-3 ms-3">
+				<li class="sidebar-item bg-white">
+						<a class="btn btn-white dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Usuario
+						</a>
+						<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="../page/usuario_registro.html">Registro</a></li>
+						<li><a class="dropdown-item" href="../page/usuario_contenido.html">Contenido</a></li>
+						</ul>
+				</li>
+			</div>
             <li class="sidebar-item bg-white">
                 <a class="sidebar-link mt-4 bg-white" href="index.html">
                     <span class="align-middle">Visitantes</span>
@@ -45,7 +51,7 @@
 			</li>
             <li class="sidebar-item bg-white">
                 <a class="sidebar-link mt-4 bg-white" href="../../html/page/vehiculos.html">
-                    <span class="align-middle">vehiculo</span>
+                    <span class="align-middle">Vehiculo</span>
                 </a>
 			</li>
             <li class="sidebar-item bg-white">
@@ -68,7 +74,7 @@
                     <span class="align-middle">Reportes</span>
                 </a>
 			</li>
-				</ul>
+		</ul>
 		</nav>
 		<div class="main">
 			<nav class="navbar navbar-expand bg-navbar" id="nabvar-administrator" >

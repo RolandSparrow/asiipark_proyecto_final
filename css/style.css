@@ -391,6 +391,17 @@ border: solid rgb(3, 133, 255) 2px;
     margin-bottom: 20px;
 }
 
+.dropdown a{
+    color: black;
+    font-size: 15px;
+}
+
+.sidebar-nav{
+    font-size: 15px;
+
+}
+
+
 
 #reloj {
     width: 250px;
@@ -405,4 +416,10 @@ border: solid rgb(3, 133, 255) 2px;
 #btn-close-usuario{
     text-decoration: none;
     color: white;
+}
+
+.bg-crud{
+    background-color: rgb(33, 150, 243);
+    text-align: center;
+    align-items: center;
 }
