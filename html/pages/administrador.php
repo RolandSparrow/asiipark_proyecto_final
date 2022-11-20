@@ -44,7 +44,7 @@
                 </a>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="index.html">
+                <a class="sidebar-link mt-4 bg-white" href="../../html/page/vehiculos.html">
                     <span class="align-middle">vehiculo</span>
                 </a>
 			</li>
