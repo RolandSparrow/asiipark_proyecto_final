@@ -429,3 +429,7 @@ border: solid rgb(3, 133, 255) 2px;
     text-align: center;
     align-items: center;
 }
+
+.col-button-asignation{
+    margin-right: -738px;
+}

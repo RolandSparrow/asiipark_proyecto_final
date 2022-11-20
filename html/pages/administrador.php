@@ -29,7 +29,7 @@
 				</div>
         <ul class="sidebar-nav bg-white">
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="administrador.php">
+                <a class="sidebar-link mt-4 bg-white" href="administrador.html">
                     <span class="align-middle">Inicio</span>
                 </a>
 			</li>
@@ -45,7 +45,7 @@
 				</div>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="../../html/page/visitantes.html">
+                <a class="sidebar-link mt-4 bg-white" href="../page/visitantes.html">
                     <span class="align-middle">Visitantes</span>
                 </a>
 			</li>
