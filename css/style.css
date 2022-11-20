@@ -396,12 +396,18 @@ border: solid rgb(3, 133, 255) 2px;
     font-size: 15px;
 }
 
+.dropdown button{
+    color: black;
+    font-size: 15px;
+}
 .sidebar-nav{
     font-size: 15px;
 
 }
 
-
+.nav-bar-justify{
+    justify-content: end;
+}
 
 #reloj {
     width: 250px;
