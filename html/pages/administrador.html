@@ -24,10 +24,18 @@
 				<a class="sidebar-brand bg-white" href="index.html">
                     <span class="align-middle bg-white"></span>
                 </a>
+				<div 
+				id="reloj">00 : 00 
+				</div>
         <ul class="sidebar-nav bg-white">
             <li class="sidebar-item bg-white">
                 <a class="sidebar-link mt-4 bg-white" href="index.html">
                     <span class="align-middle">Inicio</span>
+                </a>
+			</li>
+			<li class="sidebar-item bg-white">
+                <a class="sidebar-link mt-4 bg-white" href="index.html">
+                    <span class="align-middle">Usuarios</span>
                 </a>
 			</li>
             <li class="sidebar-item bg-white">
@@ -204,11 +212,11 @@
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
-                <i class="align-middle" data-feather="settings"></i>
-              </a>
+                <i class="align-middle" data-feather="settings"></i>	
+			</a>
 
 							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="../../img/miguel.jpeg.jpeg" class="avatar img-fluid rounded me-1" alt="miguel" /> <span class="text-dark">Miguel Roldan</span>
+                <img src="../../img/miguel.jpeg.jpeg" class="avatar img-fluid rounded-circle me-1" alt="miguel" /> <span class="text-dark">Miguel Roldan</span>
                 </a>
 							<div class="dropdown-menu dropdown-menu-end">
 								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
@@ -217,7 +225,7 @@
 								<a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
 								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="../index.htmlQ3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333">Log out</a>
+								<a class="dropdown-item" href="../index.html">Log out</a>
 							</div>
 						</li>
 					</ul>
@@ -313,8 +321,28 @@
 	</div>
 
 	<script src="../../js/app.js"></script>
-
-
+<script>
+	function actual() {
+		fecha = new Date(); 
+		hora = fecha.getHours(); 
+		minuto = fecha.getMinutes(); 
+		if (hora < 10) { 
+			hora = "0" + hora;
+		}
+		if (minuto < 10) { 
+			minuto = "0" + minuto;
+		}
+		
+		mireloj = hora + " : " + minuto;
+		return mireloj;
+	}
+	function actualizar() { 
+		mihora = actual(); 
+		mireloj = document.getElementById("reloj"); 
+		mireloj.innerHTML = mihora; 
+	}
+	setInterval(actualizar, 1000);
+</script>
 
 </body>
 
