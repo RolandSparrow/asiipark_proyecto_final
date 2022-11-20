@@ -1,6 +1,5 @@
 <?php 
 
-$mysqli = new mysqlite("Localhost","root","","sistema");
-
+$conexion = new mysqli('localhost:3306', 'root', '', 'Assipark'); 
 
 ?>

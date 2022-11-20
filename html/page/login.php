@@ -48,21 +48,21 @@
                                     <div class="text-center mt-1 mb-1">
                                         <img src="../../img/logo_assipark.jpg" id="logo_login">
                                     </div>
-                                    <form class="user" method="post" >
+                                    <form   class="user" method="post"  > 
+                                        <?php include ("../../php/login2.php")?>
                                         <div class="form-group">
-                                            <input type="number" name="Numero_Identificaion" placeholder="Numero Identificación" class="form-control form-control-user"  id="exampleInputUser" aria-describedby="NumeroidentificacionHelp" required maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" />
+                                            <input type="number" name="Numero_Identificacion" placeholder="Numero_Identificación" class="form-control form-control-user"  id="exampleInputUser" aria-describedby="NumeroidentificacionHelp" required maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" name="password" class="form-control form-control-user"id="exampleInputPassword" placeholder="Password" aria-describedby="passwordHelp" required maxlength="35" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
                                         </div>
                                         <div class="form-group">
                                         </div>
-                                        <a href="" class="btn btn-primary btn-user btn-block">
-                                            INICIAR SESIÓN
-                                        </a>
+                                        <input type="submit" name="ingresar" value="iniciar sesion" class="btn btn-primary btn-user btn-block">
                                     <div class="text-center">
                                         <a  href="forgot-password.html">¿Olvidaste tu Contraseña?</a>
                                     </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
