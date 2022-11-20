@@ -367,3 +367,26 @@ border: solid rgb(3, 133, 255) 2px;
 .img-contact img{
     margin-top: -108px;
 }
+
+
+.sidebar-item span{
+    color: black;
+}
+
+.bg-navbar {
+    background-color: rgb(23, 144, 249);
+}
+
+.container-fluid p{
+    color: black;
+}
+
+.card-text{
+    font-size: 30px;
+    color: white;
+}
+
+.card-body{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
