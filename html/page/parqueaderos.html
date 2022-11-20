@@ -29,7 +29,7 @@
 				</div>
         <ul class="sidebar-nav bg-white">
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="index.html">
+                <a class="sidebar-link mt-4 bg-white" href="../pages/administrador.php">
                     <span class="align-middle">Inicio</span>
                 </a>
 			</li>
@@ -59,7 +59,7 @@
                 </a>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="index.html">
+                <a class="sidebar-link mt-4 bg-white" href="../page/parqueaderos.html">
                     <span class="align-middle">Parqueadero</span>
                 </a>
 			</li>
@@ -231,65 +231,64 @@
 					</ul>
 				</div>
 			</nav>
-			<main class="content">
+            <main class="content">
 				<div class="container-fluid p-0">
-					<h1 class="h3 mb-3 bg-white">Organizacion Parqueadero</h1>
-                    <p>Aqui podra observar la Organizacion de los parqueaderos por apartamentos y bloques de todo el conjunto
-                        residencial.</p>
-                    <div class="row">
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">A</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        1
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">B</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        2
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">C</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        3
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">D</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        4
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">F</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        5
-                                    </p>
+					<h1 class="h3 mb-3 bg-white">Asignacion</h1>
+                    <hr>
+                    <div class="container" >
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="select1">Numero Apartamento:</label>
+                                    <select class="form-select" id="select1">
+                                        <option value="1">--</option>
+                                        <option value="2">1</option>
+                                        <option value="3">2</option>
+                                        <option value="4">3</option>
+                                        <option value="5">4</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-			</main>
+                    <div class="container" >
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="select1">vehiculo</label>
+                                    <select class="form-select" id="select1">
+                                        <option value="1">--</option>
+                                        <option value="2">1</option>
+                                        <option value="3">2</option>
+                                        <option value="4">3</option>
+                                        <option value="5">4</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <form class="m-3" >
+
+                            <div class="row">
+                                <label class="col-2 col-form-label" for="dateInput">Inicio de Asignacion</label>
+                                <div class="col-10">
+                                <input type="date" class="form-control" id="dateInput" placeholder="---">
+                                </div>
+                           
+                        </form>
+                    </div>
+                    <div class="container">
+                        <form class="m-3" >
+                            <div class="row">
+                                <label class="col-2 col-form-label" for="dateInput">Finalizacion de Asignacion</label>
+                                <div class="col-10">
+                                <input type="date" class="form-control" id="dateInput" placeholder="---">
+                             </div>
+                            </div>
+                        </form>
+                    </div>
+                </main>
 			<footer class="footer">
 				<div class="container-fluid">
 					<div class="row text-muted">
