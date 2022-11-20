@@ -44,7 +44,7 @@
                 </a>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="../page/vehiculos.html">
+                <a class="sidebar-link mt-4 bg-white" href="../../html/page/vehiculos.html">
                     <span class="align-middle">vehiculo</span>
                 </a>
 			</li>
@@ -59,7 +59,7 @@
                 </a>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="../page/parqueaderos.html">
+                <a class="sidebar-link mt-4 bg-white" href="../../html/page/parqueaderos.html">
                     <span class="align-middle">Parqueadero</span>
                 </a>
 			</li>
@@ -231,100 +231,107 @@
 					</ul>
 				</div>
 			</nav>
-            <main class="content">
-				<div class="container-fluid p-0">
-					<h1 class="h3 mb-3 bg-white">Asignacion</h1>
-                    <hr>
-                    <div class="container" >
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="select1">Numero Apartamento:</label>
-                                    <select class="form-select" id="select1">
-                                        <option value="1">--</option>
-                                        <option value="2">1</option>
-                                        <option value="3">2</option>
-                                        <option value="4">3</option>
-                                        <option value="5">4</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container" >
-                        <div class="row">
-                            <div class="col">
-                                <div class="mb-3">
-                                    <label for="select1">vehiculo</label>
-                                    <select class="form-select" id="select1">
-                                        <option value="1">--</option>
-                                        <option value="2">1</option>
-                                        <option value="3">2</option>
-                                        <option value="4">3</option>
-                                        <option value="5">4</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <form class="m-3" >
 
-                            <div class="row">
-                                <label class="col-2 col-form-label" for="dateInput">Inicio de Asignacion</label>
-                                <div class="col-10">
-                                <input type="date" class="form-control" id="dateInput" placeholder="---">
-                                </div>
-                           
-                        </form>
+			<div class="container-fluid p-0 ">
+                <h1 class="h3 mb-3 bg-white">visitantes</h1>
+                    <hr>
+                <form class="row mt-2 needs-validation" novalidate>
+                    <div class="col-3">
+                        <label for="validationCustom04" class="form-label">Tipo de documento</label>
+                        <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value="0">seleccionar</option>
+                            <option value="1">Cedula de Ciudadania</option>
+                            <option value="2">Cedula de Extrajeria</option>
+                            <option value="3">Tarjeta de Identidad</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Por favor seleccionar tipo de documento.
+                        </div>
                     </div>
-                    <div class="container">
-                        <form class="m-3" >
-                            <div class="row">
-                                <label class="col-2 col-form-label" for="dateInput">Finalizacion de Asignacion</label>
-                                <div class="col-10">
-                                <input type="date" class="form-control"  id="dateInput" placeholder="---">
-                             </div>
-                            </div>
-                            <div class="row mt-2 justify-content-center">
-                                <div class="col-md-3 ">
-                                    <div>
-                                        <button class="btn btn-primary " type="submit">Enviar</button>
-                                        <button class="btn btn-danger " type="submit"><a id="btn-close-usuario" href="../pages/administrador.html">Cerrar</a> </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <label for="validationCustom01" class="form-label">Numero de Documento</label>
+                            <input type="number" class="form-control" id="validationCustom01" placeholder="Ingrese su numero de Documento" value="Mark" required maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        </div>
                     </div>
-                </main>
-			<footer class="footer">
-				<div class="container-fluid">
-					<div class="row text-muted">
-						<div class="col-6 text-start">
-							<p class="mb-0">
-								<a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>AdminKit</strong></a> - <a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Bootstrap Admin Template</strong></a>								&copy;
-							</p>
-						</div>
-						<div class="col-6 text-end">
-							<ul class="list-inline">
-								<li class="list-inline-item">
-									<a class="text-muted" href="https://adminkit.io/" target="_blank">Support</a>
-								</li>
-								<li class="list-inline-item">
-									<a class="text-muted" href="https://adminkit.io/" target="_blank">Help Center</a>
-								</li>
-								<li class="list-inline-item">
-									<a class="text-muted" href="https://adminkit.io/" target="_blank">Privacy</a>
-								</li>
-								<li class="list-inline-item">
-									<a class="text-muted" href="https://adminkit.io/" target="_blank">Terms</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</footer>
-		</div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <label for="validationServer01" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="validationServer01" value="" placeholder="Ingrese Nombre" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            </div>
+                            <div class="col-md-6">
+                            <label for="validationServer02" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="validationServer02" value="" placeholder="Ingrese apellido" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-3">
+                            Sexo
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                                <label class="form-check-label" for="validationFormCheck2">Femenino</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                                <label class="form-check-label" for="validationFormCheck3">Masculino</label>
+                                <div class="invalid-feedback"></div>
+                            </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <label for="validationCustom03" class="form-label">Celular</label>
+                            <input type="number" class="form-control" id="validationCustom03" placeholder="Ingrese el Celular" required maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                            <div class="invalid-feedback">
+                                Llenar campo vacio.
+                            </div>
+                        </div>
+                    <div class="row mt-2 justify-content-center">
+                        <div class="col-2 ">
+                            <div>
+                                <button class="btn btn-primary " type="submit">Enviar</button>
+                                <button class="btn btn-danger " type="submit"><a id="btn-close-usuario" href="../pages/administrador.html">Cerrar</a> </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row text-muted">
+                        <div class="col-6 text-start">
+                            <p class="mb-0">
+                                <a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>AdminKit</strong></a> - <a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Bootstrap Admin Template</strong></a>								&copy;
+                            </p>
+                        </div>
+                        <div class="col-6 text-end">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Support</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Help Center</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Privacy</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Terms</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
 	</div>
 
 	<script src="../../js/app.js"></script>

@@ -29,17 +29,17 @@
 				</div>
         <ul class="sidebar-nav bg-white">
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="administrador.html">
+                <a class="sidebar-link mt-4 bg-white" href="administrador.php">
                     <span class="align-middle">Inicio</span>
                 </a>
 			</li>
 			<li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="../page/usuario.html">
+                <a class="sidebar-link mt-4 bg-white" href="../../html/page/usuario.html">
                     <span class="align-middle">Usuarios</span>
                 </a>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="index.html">
+                <a class="sidebar-link mt-4 bg-white" href="../../html/page/visitantes.html">
                     <span class="align-middle">Visitantes</span>
                 </a>
 			</li>
