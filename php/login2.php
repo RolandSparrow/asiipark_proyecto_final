@@ -7,7 +7,7 @@ if (!empty($_POST["ingresar"])){
         $query="select * from login  where user_name ='$N_identificacion' and contraseña='$contra'";
         $result_login = mysqli_query($conexion, $query);
         if ($datos=$result_login->fetch_object()){
-            header("Location:../index.html");
+            header("Location:../../../html/pages/administrador.html");
         }
        else {
     echo "<div class='alert alert-danger'> acceso denegado </div>";
