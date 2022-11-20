@@ -29,12 +29,12 @@
 				</div>
         <ul class="sidebar-nav bg-white">
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="index.html">
+                <a class="sidebar-link mt-4 bg-white" href="administrador.html">
                     <span class="align-middle">Inicio</span>
                 </a>
 			</li>
 			<li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="index.html">
+                <a class="sidebar-link mt-4 bg-white" href="../page/usuario.html">
                     <span class="align-middle">Usuarios</span>
                 </a>
 			</li>
@@ -71,7 +71,7 @@
 				</ul>
 		</nav>
 		<div class="main">
-			<nav class="navbar navbar-expand bg-navbar">
+			<nav class="navbar navbar-expand bg-navbar" id="nabvar-administrator" >
 				<a class="sidebar-toggle js-sidebar-toggle">
                     <i class="hamburger align-self-center"></i>
                 </a>
@@ -288,6 +288,51 @@
                             </div>
                         </div>
                     </div>
+					<h1 class="h3 mb-3 bg-white">Organizacion Parqueadero Visitante</h1>
+					<p>Aqui podra observar la organizacion de los parqueaderos de los visitantes del conjunto residencial.</p>
+					<div class="row">
+						<div class="col-3">
+							<div class="card text-bg-success mb-3" style="max-width: 14rem;">
+                                <div class="card-header">A</div>
+                                <div class="card-body">
+                                    <p class="card-text text-center align-content-center">
+                                        1
+                                    </p>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-3">
+                            <div class="card mb-3" style="max-width: 14rem;">
+                                <div class="card-header">B</div>
+                                <div class="card-body">
+                                    <p class="card-text text-center align-content-center">
+                                        2
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card  mb-3" style="max-width: 14rem;">
+                                <div class="card-header">C</div>
+                                <div class="card-body">
+                                    <p class="card-text text-center align-content-center">
+                                        3
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card  mb-3" style="max-width: 14rem;">
+                                <div class="card-header">D</div>
+                                <div class="card-body">
+                                    <p class="card-text text-center align-content-center">
+                                        4
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+					</div>
                 </div>
 			</main>
 			<footer class="footer">
@@ -295,22 +340,22 @@
 					<div class="row text-muted">
 						<div class="col-6 text-start">
 							<p class="mb-0">
-								<a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>AdminKit</strong></a> - <a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Bootstrap Admin Template</strong></a>								&copy;
+								<a class="text-muted" href="#" target="_blank"><strong>Miguel Roldan</strong></a> - <a class="text-muted" href="" target="_blank"><strong></strong></a>								&copy;
 							</p>
 						</div>
 						<div class="col-6 text-end">
 							<ul class="list-inline">
 								<li class="list-inline-item">
-									<a class="text-muted" href="https://adminkit.io/" target="_blank">Support</a>
+									<a class="text-muted" href="" target="_blank">Support</a>
 								</li>
 								<li class="list-inline-item">
-									<a class="text-muted" href="https://adminkit.io/" target="_blank">Help Center</a>
+									<a class="text-muted" href="" target="_blank">Help Center</a>
 								</li>
 								<li class="list-inline-item">
-									<a class="text-muted" href="https://adminkit.io/" target="_blank">Privacy</a>
+									<a class="text-muted" href="" target="_blank">Privacy</a>
 								</li>
 								<li class="list-inline-item">
-									<a class="text-muted" href="https://adminkit.io/" target="_blank">Terms</a>
+									<a class="text-muted" href="" target="_blank">Terms</a>
 								</li>
 							</ul>
 						</div>

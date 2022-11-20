@@ -391,6 +391,7 @@ border: solid rgb(3, 133, 255) 2px;
     margin-bottom: 20px;
 }
 
+
 #reloj {
     width: 250px;
     height: 60px;
@@ -399,4 +400,9 @@ border: solid rgb(3, 133, 255) 2px;
     font: bold 50px dotum, "lucida sans", arial;
     margin-bottom: -1px;
     margin-top: 15px;
+}
+
+#btn-close-usuario{
+    text-decoration: none;
+    color: white;
 }
