@@ -7,13 +7,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="canonical" href="https://demo-basic.adminkit.io/" />
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 	<title>Assipark</title>
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-	<link href="../../css/app.css" rel="stylesheet">
+	<link href="../css/app.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../../img/logo_assipark.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logo_assipark.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
@@ -29,7 +29,7 @@
 				</div>
         <ul class="sidebar-nav bg-white">
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="../pages/administrador.html">
+                <a class="sidebar-link mt-4 bg-white" href="administrador.php">
                     <span class="align-middle">Inicio</span>
                 </a>
 			</li>
@@ -39,25 +39,25 @@
 						Usuario		
 					</button>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="../page/usuario_registro.html">Registrar</a></li>
-						<li><a class="dropdown-item" href="../page/usuario_contenido.html">Contenido</a></li>
+						<li><a class="dropdown-item" href="usuario_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="usuario_contenido.php">Contenido</a></li>
 					</ul>
 				</div>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="../page/visitantes.html">
+                <a class="sidebar-link mt-4 bg-white" href="visitantes.php">
                     <span class="align-middle">Visitantes</span>
                 </a>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="../page/vehiculos.html">
+                <a class="sidebar-link mt-4 bg-white" href="vehiculos.php">
                     <span class="align-middle">Vehiculo</span>
-                <a class="sidebar-link mt-4 bg-white" href="../../html/page/vehiculos.html">
+                <a class="sidebar-link mt-4 bg-white" href="vehiculos.php">
                     <span class="align-middle">vehiculo</span>
                 </a>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="../page/apartamento.html">
+                <a class="sidebar-link mt-4 bg-white" href="apartamento.php">
                     <span class="align-middle">Apartamento</span>
                 </a>
 			</li>
@@ -67,13 +67,8 @@
                 </a>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="../../html/page/parqueaderos.html">
+                <a class="sidebar-link mt-4 bg-white" href="parqueaderos.php">
                     <span class="align-middle">Parqueadero</span>
-                </a>
-			</li>
-            <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="index.html">
-                    <span class="align-middle">Reportes</span>
                 </a>
 			</li>
 				</ul>
@@ -83,7 +78,7 @@
 				<a class="sidebar-toggle js-sidebar-toggle">
                     <i class="hamburger align-self-center"></i>
                 </a>
-                <a href="../pages/administrador.html"><img src="../../img/LOGO_ASSIPARK_BLANCO.png" width="200px" height="43px" alt=""></a>  
+                <a href="administrador.php"><img src="../img/LOGO_ASSIPARK_BLANCO.png" width="200px" height="43px" alt=""></a>  
 				<div class="navbar-collapse collapse">
 					<ul class="navbar-nav navbar-align">
 						<li class="nav-item dropdown">
@@ -224,7 +219,7 @@
 			</a>
 
 							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="../../img/miguel.jpeg.jpeg" class="avatar img-fluid rounded-circle me-1" alt="miguel" /> <span class="text-dark">Miguel Roldan</span>
+                <img src="../img/miguel.jpeg.jpeg" class="avatar img-fluid rounded-circle me-1" alt="miguel" /> <span class="text-dark">Miguel Roldan</span>
                 </a>
 							<div class="dropdown-menu dropdown-menu-end">
 								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
@@ -415,22 +410,22 @@
                     <div class="row text-muted">
                         <div class="col-6 text-start">
                             <p class="mb-0">
-                                <a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>AdminKit</strong></a> - <a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Bootstrap Admin Template</strong></a>								&copy;
+                                <a class="text-muted" href="" target="_blank"><strong>Bhryan</strong></a> - <a class="text-muted" href="" target="_blank"><strong></strong></a>								&copy;
                             </p>
                         </div>
                         <div class="col-6 text-end">
                             <ul class="list-inline">
                                 <li class="list-inline-item">
-                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Support</a>
+                                    <a class="text-muted" href="" target="_blank">Support</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Help Center</a>
+                                    <a class="text-muted" href="" target="_blank">Help Center</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Privacy</a>
+                                    <a class="text-muted" href="" target="_blank">Privacy</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a class="text-muted" href="https://adminkit.io/" target="_blank">Terms</a>
+                                    <a class="text-muted" href="" target="_blank">Terms</a>
                                 </li>
                             </ul>
                         </div>
