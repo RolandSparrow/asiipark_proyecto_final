@@ -71,7 +71,7 @@
 				<a class="sidebar-toggle js-sidebar-toggle">
                     <i class="hamburger align-self-center"></i>
                 </a>
-                <img src="../../img/LOGO_ASSIPARK_BLANCO.png" width="200px" height="43px" alt="">
+                <img src="../img/LOGO_ASSIPARK_BLANCO.png" width="200px" height="43px" alt="">
 				<div class="navbar-collapse collapse">
 					<ul class="navbar-nav navbar-align">
 						<li class="nav-item dropdown">
@@ -221,7 +221,7 @@
 								<a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
 								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="../index.html">Log out</a>
+								<a class="dropdown-item" href="../html/index.html">Log out</a>
 							</div>
 						</li>
 					</ul>
@@ -255,7 +255,7 @@
                         <div class="col-4">
                             <div>
                                 <button class="btn btn-primary " type="submit">consultar</button>
-                                <button class="btn btn-danger " type="submit"><a id="btn-close-usuario" href="../pages/administrador.html">Cerrar</a> </button>
+                                <button class="btn btn-danger " type="submit"><a id="btn-close-usuario" href="administrador.php">Cerrar</a> </button>
                             </div>
                         </div>
                     </div>

@@ -15,7 +15,8 @@
 </head>
 <body>
     <div class="container ">
-        <form  class="row mt-2 needs-validation" action="usuario_contenido.php" method = "POST">
+        <form  class="row mt-2 needs-validation" action="" method ="POST">
+        <?php include ("agregar.php")?>
             <div class="col-3">
                 <label for="validationCustom04" class="form-label" name="Tipo_documento">Tipo de documento</label>
                 <select class="form-select" id="validationCustom04" required>
@@ -123,12 +124,13 @@
             <div class="row mt-2 justify-content-center">
                 <div class="col-2 ">
                     <div>
-                        <button class="btn btn-primary " type="submit">Enviar</button>
+                        <button class="btn btn-primary " name="button_usuario" type="submit">Enviar</button>
                         <button class="btn btn-danger " type="submit"><a id="btn-close-usuario" href="administrador.php">Cerrar</a> </button>
                     </div>
                 </div>
             </div>
         </form>
+
     </div>
         <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
