@@ -123,9 +123,10 @@
             </div>
             <div class="row mt-2 justify-content-center">
                 <div class="col-md-12">
-                    <input type="submit" class="btn btn-success btn-send"  name="button_usuario" value="enviar">
-                </div>
-                        <button class="btn btn-danger " type="submit"><a id="btn-close-usuario" href="administrador.php">Cerrar</a> </button>
+                
+                <button class="btn btn-primary " type="submit">Enviar</button>
+                        <button class="btn btn-danger " type="submit"><a id="btn-close-usuario" href="../pages/administrador.html">Cerrar</a> </button>
+                   </div> 
             </div>
         </form>
 

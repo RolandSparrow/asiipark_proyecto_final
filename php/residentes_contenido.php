@@ -36,7 +36,7 @@
 				</div>
         <ul class="sidebar-nav bg-white">
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="administrador.php">
+                <a class="sidebar-link mt-7 bg-white" href="administrador.php">
                     <span class="align-middle">Inicio</span>
                 </a>
 			</li>
@@ -58,7 +58,7 @@
 					</button>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="visitantes_registro.php">Registrar</a></li>
-						<li><a class="dropdown-item" href="">Contenido</a></li>
+						<li><a class="dropdown-item" href="visitante_cotenido.php">Contenido</a></li>
 					</ul>
 				</div>
 			</li>
@@ -69,7 +69,7 @@
 					</button>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="vehiculos_registro.php">Registrar</a></li>
-						<li><a class="dropdown-item" href="">Contenido</a></li>
+						<li><a class="dropdown-item" href="vehiculo_contenido.php">Contenido</a></li>
 					</ul>
 				</div>
 			</li>
@@ -80,7 +80,7 @@
 					</button>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="apartamento_registro.php">Registrar</a></li>
-						<li><a class="dropdown-item" href="">Contenido</a></li>
+						<li><a class="dropdown-item" href="apartamento_contenido.php">Contenido</a></li>
 					</ul>
 				</div>
 			</li>
@@ -102,7 +102,7 @@
 					</button>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="parqueaderos_registro.php">Registrar</a></li>
-						<li><a class="dropdown-item" href="">Contenido</a></li>
+						<li><a class="dropdown-item" href="parquedero_contenido.php">Contenido</a></li>
 					</ul>
 				</div>
 			</li>

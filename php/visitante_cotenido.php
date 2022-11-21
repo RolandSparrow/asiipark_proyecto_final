@@ -15,8 +15,15 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/logo_assipark.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
-</head>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+</head>
 <body>
 	<div class="wrapper bg-white">
     <nav id="sidebar" class="sidebar js-sidebar bg-white">
@@ -102,12 +109,12 @@
 		</ul>
 		</nav>
 		<div class="main">
-			<nav class="navbar navbar-expand bg-navbar">
+            <nav class="navbar navbar-expand bg-navbar" id="nabvar-administrator" >
 				<a class="sidebar-toggle js-sidebar-toggle">
                     <i class="hamburger align-self-center"></i>
                 </a>
                 <a href="administrador.php"><img src="../img/LOGO_ASSIPARK_BLANCO.png" width="200px" height="43px" alt=""></a>  
-				<div class="navbar-collapse collapse">
+				<div class="navbar-collapse  nav-bar-justify ">
 					<ul class="navbar-nav navbar-align">
 						<li class="nav-item dropdown">
 							<a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
@@ -256,214 +263,178 @@
 								<a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
 								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="../index.html">Log out</a>
+								<a class="dropdown-item" href="../html/index.html">Log out</a>
 							</div>
 						</li>
 					</ul>
 				</div>
 			</nav>
 			<main class="content">
-				<div class="container-fluid p-0">
-					<h1 class="h3 mb-3 bg-white">Organizacion Parqueadero</h1>
-                    <p>Aqui podra observar la Organizacion de los parqueaderos por apartamentos y bloques de todo el conjunto
-                        residencial.</p>
-                    <div class="row">
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">A</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        1
-                                    </p>
+                <div class="container">
+                    <div class="table-wrapper">
+                        <div class="table-title">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h2>Visitantes <b>Assipark</b></h2>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="usuario_registro.html" class="btn btn-success" ><i class="material-icons">&#xE147;</i> <span>Agregar Usuario</span></a>
+                                    <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal"><i class="material-icons">&#xE15C;</i> <span>Eliminar</span></a>						
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">B</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        2
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">C</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        3
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">D</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        4
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">F</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        5
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-			</main>
-            <main class="content">
-				<div class="container-fluid p-0">
-					<h1 class="h3 mb-3 bg-white">Organizacion Parqueadero</h1>
-                    <p>Aqui podra observar la Organizacion de los parqueaderos de los visitantes del conjunto residencial</p>
-                    <div class="row">
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">A</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        1
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">B</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        2
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">C</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        3
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">D</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        4
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">F</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        5
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid p-0">
-                    <div class="row">
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">G</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        6
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">H</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        7
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">I</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        8
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">J</div>
-                                <div class="card-body">
-                                    <p class="card-text text-center align-content-center">
-                                        9
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-bg-success mb-3" style="max-width: 14rem;">
-                                <div class="card-header">K</div>
-                                <div class="card-body " >
-                                    <p class="card-text text-center align-content-center">
-                                        10
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-			</main>
-            <footer class="footer">
-                <div class="container-fluid">
-                    <div class="row text-muted">
-                        <div class="col-6 text-start">
-                            <p class="mb-0">
-                                <a class="text-muted" href="" target="_blank"><strong>Bhryan</strong></a> - <a class="text-muted" href="" target="_blank"><strong></strong></a>								&copy;
-                            </p>
-                        </div>
-                        <div class="col-6 text-end">
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <a class="text-muted" href="" target="_blank">Support</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="text-muted" href="" target="_blank">Help Center</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="text-muted" href="" target="_blank">Privacy</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="text-muted" href="" target="_blank">Terms</a>
-                                </li>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr class="bg-crud">
+                                    <th>
+                                    </th>
+                                    <th>Documento de Identidad</th>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                    <th>Celular</th>
+                                    <th>Modificar</th>
+                                    <th>Inhabilitar</th>
+                                </tr>
+                            </thead>
+                            <tbody class="col-12">
+                                <tr>
+                                    <td>
+                                        <span class="custom-checkbox">
+                                            <input type="checkbox" id="checkbox1" name="options[]" value="1">
+                                            <label for="checkbox1"></label>
+                                        </span>
+                                    </td>
+                                    <td>1001315981</td>
+                                    <td>Miguel</td>
+                                    <td>Roldán</td>
+                                    <td>7502817</td>
+                                    <td>
+                                        <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="custom-checkbox">
+                                            <input type="checkbox" id="checkbox2" name="options[]" value="1">
+                                            <label for="checkbox2"></label>
+                                        </span>
+                                    </td>
+                                    <td>1001315981</td>
+                                    <td>Miguel</td>
+                                    <td>Roldán</td>
+                                    <td>7502817</td>
+                                    <td>
+                                        <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="custom-checkbox">
+                                            <input type="checkbox" id="checkbox3" name="options[]" value="1">
+                                            <label for="checkbox3"></label>
+                                        </span>
+                                    </td>
+                                    <td>1001315981</td>
+                                    <td>Miguel</td>
+                                    <td>Roldán</td>
+                                    <td>7502817</td>
+                                    <td>
+                                        <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="custom-checkbox">
+                                            <input type="checkbox" id="checkbox4" name="options[]" value="1">
+                                            <label for="checkbox4"></label>
+                                        </span>
+                                    </td>
+                                    <td>1001315981</td>
+                                    <td>Miguel</td>
+                                    <td>Roldán</td>
+                                    <td>7502817</td>
+                                    <td>
+                                        <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                                    </td>
+                                </tr>					
+                                <tr>
+                                    <td>
+                                        <span class="custom-checkbox">
+                                            <input type="checkbox" id="checkbox5" name="options[]" value="1">
+                                            <label for="checkbox5"></label>
+                                        </span>
+                                    </td>
+                                    <td>1001315981</td>
+                                    <td>Miguel</td>
+                                    <td>Roldán</td>
+                                    <td>7502817</td>
+                                    <td>
+                                        <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Editar">&#xE254;</i></a>
+                                    </td>
+                                    <td>
+                                        <a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                                    </td>
+                                </tr> 
+                            </tbody>
+                        </table>
+                        <div class="clearfix">
+                            <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
+                            <ul class="pagination">
+                                <li class="page-item disabled"><a href="#">Previous</a></li>
+                                <li class="page-item"><a href="#" class="page-link">1</a></li>
+                                <li class="page-item"><a href="#" class="page-link">2</a></li>
+                                <li class="page-item active"><a href="#" class="page-link">3</a></li>
+                                <li class="page-item"><a href="#" class="page-link">4</a></li>
+                                <li class="page-item"><a href="#" class="page-link">5</a></li>
+                                <li class="page-item"><a href="#" class="page-link">Next</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </footer>
-        </div>
-	</div>
-
-	<script src="../../js/app.js"></script>
+			</main>
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="row text-muted">
+						<div class="col-6 text-start">
+							<p class="mb-0">
+								<a class="text-muted" href="#" target="_blank"><strong>Miguel Roldan</strong></a> - <a class="text-muted" href="" target="_blank"><strong></strong></a>								&copy;
+							</p>
+						</div>
+						<div class="col-6 text-end">
+							<ul class="list-inline">
+								<li class="list-inline-item">
+									<a class="text-muted" href="" target="_blank">Support</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="" target="_blank">Help Center</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="" target="_blank">Privacy</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="" target="_blank">Terms</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+    </div>
+</div>
+	<script src="../js/app.js"></script>
 <script>
 	function actual() {
 		fecha = new Date(); 

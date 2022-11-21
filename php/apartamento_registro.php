@@ -29,7 +29,7 @@
 				</div>
         <ul class="sidebar-nav bg-white">
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="administrador.php">
+                <a class="sidebar-link mt-7 bg-white" href="administrador.php">
                     <span class="align-middle">Inicio</span>
                 </a>
 			</li>
@@ -51,7 +51,7 @@
 					</button>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="visitantes_registro.php">Registrar</a></li>
-						<li><a class="dropdown-item" href="">Contenido</a></li>
+						<li><a class="dropdown-item" href="visitante_cotenido.php">Contenido</a></li>
 					</ul>
 				</div>
 			</li>
@@ -62,7 +62,7 @@
 					</button>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="vehiculos_registro.php">Registrar</a></li>
-						<li><a class="dropdown-item" href="">Contenido</a></li>
+						<li><a class="dropdown-item" href="vehiculo_contenido.php">Contenido</a></li>
 					</ul>
 				</div>
 			</li>
@@ -73,7 +73,7 @@
 					</button>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="apartamento_registro.php">Registrar</a></li>
-						<li><a class="dropdown-item" href="">Contenido</a></li>
+						<li><a class="dropdown-item" href="apartamento_contenido.php">Contenido</a></li>
 					</ul>
 				</div>
 			</li>
@@ -95,7 +95,7 @@
 					</button>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="parqueaderos_registro.php">Registrar</a></li>
-						<li><a class="dropdown-item" href="">Contenido</a></li>
+						<li><a class="dropdown-item" href="parquedero_contenido.php">Contenido</a></li>
 					</ul>
 				</div>
 			</li>
@@ -286,6 +286,40 @@
                         </div>
                         </div>
                     </div>
+					<div class="row mt-3">
+                        <div class="col-md-6">
+                            <label for="validationCustom01" class="form-label">Numero de apartamento</label>
+                            <input type="number" class="form-control" id="validationCustom01" placeholder="Ingrese su numero de Documento" value="Mark" required maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        </div>
+                    </div>
+					<div class=" col-4 ">
+                        <label for="validationCustom04" class="form-label">Bloque</label>
+                        <select  class="form-select" id="validationCustom04" required>
+                            <option  selected disabled value="">seleccionar</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+							<option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+							<option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+							<option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+							<option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+							<option value="16">16</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Por favor seleccionar Bloque
+                        </div>
+                    </div>
                     <div class="row mt-2 justify-content-center">
                         <div class="col-4">
                             <div>
@@ -296,388 +330,6 @@
                     </div>
                 </form>
             </div>
-            <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary"></h6>
-                </div>
-                <div class="card-body container">
-                    <div class="table-responsive row">
-                        <table class=" table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                            <thead>
-                                <tr>
-                                    <th>Tipo de Parqueadero</th>
-                                    <th>Tamaño</th>
-                                    <th>Inhabilitar/habilitar</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                    <input type="checkbox" class="form-check-input" value="" id="check1">
-                                    <label for="check1" class="form-check-label"></label>
-                                    </div>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </td>                   
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                                <tr>
-                                    <td>residencial</td>
-                                    <td>14.94m*6m</td>
-                                    <td><div class="form-check form-check-inline form-switch">
-                                        <input type="checkbox" class="form-check-input" value="" id="check1">
-                                        <label for="check1" class="form-check-label"></label>
-                                        </div></td>
-                                    <td><button class="btn btn-primary " type="submit">actualizar</button></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container-fluid -->
-
-    </div>
-
-
-
             <footer class="footer">
                 <div class="container-fluid">
                     <div class="row text-muted">
