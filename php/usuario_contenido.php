@@ -26,9 +26,9 @@
 </head>
 <body>
 	<div class="wrapper bg-white">
-		<nav id="sidebar" class="sidebar js-sidebar bg-white">
+    <nav id="sidebar" class="sidebar js-sidebar bg-white">
 			<div class="sidebar-content js-simplebar bg-white">
-				<a class="sidebar-brand bg-white" href="../html/index.html">
+				<a class="sidebar-brand bg-white" href="index.html">
                     <span class="align-middle bg-white"></span>
                 </a>
 				<div 
@@ -51,20 +51,38 @@
 					</ul>
 				</div>
 			</li>
-            <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="visitante.php">
-                    <span class="align-middle">Visitantes</span>
-                </a>
+			<li class="sidebar-item bg-white">
+				<div class="dropdown mt-3 ms-3  ">
+					<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Visitantes
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="visitantes_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="">Contenido</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="sidebar-item bg-white">
+				<div class="dropdown mt-3 ms-3  ">
+					<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Vehiculos	
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="vehiculos_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="">Contenido</a></li>
+					</ul>
+				</div>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="vehiculos.php">
-                    <span class="align-middle">Vehiculo</span>
-                </a>
-			</li>
-            <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="apartamento.php">
-                    <span class="align-middle">Apartamento</span>
-                </a>
+				<div class="dropdown mt-3 ms-3  ">
+					<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Apartamentos
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="apartamento_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="">Contenido</a></li>
+					</ul>
+				</div>
 			</li>
             <li class="sidebar-item bg-white">
 				<div class="dropdown mt-3 ms-3  ">
@@ -77,10 +95,16 @@
 					</ul>
 				</div>
 			</li>
-            <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="parqueaderos.php">
-                    <span class="align-middle">Parqueadero</span>
-                </a>
+			<li class="sidebar-item bg-white">
+				<div class="dropdown mt-3 ms-3  ">
+					<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Parqueadero	
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="parqueaderos_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="">Contenido</a></li>
+					</ul>
+				</div>
 			</li>
 		</ul>
 		</nav>
