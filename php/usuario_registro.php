@@ -15,8 +15,7 @@
 </head>
 <body>
     <div class="container ">
-        <form  class="row mt-2 needs-validation" action="" method ="POST">
-        <?php include ("agregar.php")?>
+        <form  class="row mt-2 needs-validation" action="agregar.php" method ="post">
             <div class="col-3">
                 <label for="validationCustom04" class="form-label" name="Tipo_documento">Tipo de documento</label>
                 <select class="form-select" id="validationCustom04" required>

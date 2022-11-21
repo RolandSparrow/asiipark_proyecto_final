@@ -212,7 +212,7 @@
 			</a>
 
 							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                <img src="../../img/miguel.jpeg.jpeg" class="avatar img-fluid rounded-circle me-1" alt="miguel" /> <span class="text-dark">Miguel Roldan</span>
+                <img src="../img/miguel.jpeg.jpeg" class="avatar img-fluid rounded-circle me-1" alt="miguel" /> <span class="text-dark">Miguel Roldan</span>
                 </a>
 							<div class="dropdown-menu dropdown-menu-end">
 								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
@@ -263,7 +263,7 @@
             </div>
             <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">registro</h6>
+                    <h6 class="m-0 font-weight-bold text-primary"></h6>
                 </div>
                 <div class="card-body container">
                     <div class="table-responsive row">
@@ -673,7 +673,7 @@
         </div>
 	</div>
 
-	<script src="../../js/app.js"></script>
+	<script src="../js/app.js"></script>
 <script>
 	function actual() {
 		fecha = new Date(); 
