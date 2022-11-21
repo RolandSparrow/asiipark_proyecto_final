@@ -37,22 +37,6 @@
                     Looks good!
                 </div>
                 </div>
-                <div class="col-md-6">
-                    Tipo de Usuario
-                    <div class="form-check">
-                        <input type="radio" name="Tipo_usuario" class="form-check-input" id="validationFormCheck2"  required>
-                        <label class="form-check-label" for="validationFormCheck2">Administrador</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" name="Tipo_usuario" class="form-check-input" id="validationFormCheck3"  required>
-                        <label class="form-check-label" for="validationFormCheck3">Secretaria</label>
-                        <div class="invalid-feedback">More example invalid feedback text</div>
-                    </div>
-                    <div class="form-check">
-                        <input type="radio" name="Tipo_usuario" class="form-check-input" id="validationFormCheck2"  required>
-                        <label class="form-check-label" for="validationFormCheck2">Guarda de seguridad</label>
-                    </div>
-                </div>
             </div>
             <div class="row mt-3">
                 <div class="col-md-6">
@@ -85,13 +69,6 @@
             </div>
             <div class="row mt-4">
                 <div class="col-md-6">
-                    <label for="validationCustom03" class="form-label">Dirección</label>
-                    <input type="text" class="form-control" name="Direccion_usuario" id="validationCustom03" placeholder="Ingrese la Dirección" required>
-                    <div class="invalid-feedback">
-                        Llenar campo vacio.
-                    </div>
-                </div>
-                <div class="col-md-6">
                     <label for="validationCustom03" class="form-label">Teléfono</label>
                     <input type="text" class="form-control" name="Telefono_usuario" id="validationCustom03" placeholder="Ingrese el Teléfono" required>
                     <div class="invalid-feedback">
@@ -115,17 +92,13 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-4">
-                <div class="col-auto">
-                    <label for="inputPassword2">Password</label>
-                    <input type="password" class="form-control" name="Password_usuario" id="inputPassword2" placeholder="Password">
-                </div>
-            </div>
             <div class="row mt-2 justify-content-center">
-                <div class="col-md-12">
-                    <input type="submit" class="btn btn-success btn-send"  name="button_usuario" value="enviar">
-                </div>
+                <div class="col-2 ">
+                    <div>
+                        <button class="btn btn-primary " name="button_usuario" type="submit">Enviar</button>
                         <button class="btn btn-danger " type="submit"><a id="btn-close-usuario" href="administrador.php">Cerrar</a> </button>
+                    </div>
+                </div>
             </div>
         </form>
 

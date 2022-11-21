@@ -61,10 +61,16 @@
                     <span class="align-middle">Apartamento</span>
                 </a>
 			</li>
-            <li class="sidebar-item ">
-                <a class="sidebar-link mt-4 bg-white" href="index.html">
-                    <span class="align-middle">Residentes</span>
-                </a>
+            <li class="sidebar-item bg-white">
+				<div class="dropdown mt-3 ms-3  ">
+					<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Residentes	
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="residentes_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="residentes_contenido.php">Contenido</a></li>
+					</ul>
+				</div>
 			</li>
             <li class="sidebar-item bg-white">
                 <a class="sidebar-link mt-4 bg-white" href="parqueaderos.php">
