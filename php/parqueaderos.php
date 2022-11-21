@@ -295,7 +295,7 @@
 			</main>
             <main class="content">
 				<div class="container-fluid p-0">
-					<h1 class="h3 mb-3 bg-white">Organizacion Parqueadero</h1>
+					<h1 class="h3 mb-3 bg-white">Organizacion Parqueadero Visitantes</h1>
                     <p>Aqui podra observar la Organizacion de los parqueaderos de los visitantes del conjunto residencial</p>
                     <div class="row">
                         <div class="col">
@@ -435,7 +435,7 @@
         </div>
 	</div>
 
-	<script src="../../js/app.js"></script>
+	<script src="../js/app.js"></script>
 <script>
 	function actual() {
 		fecha = new Date(); 
