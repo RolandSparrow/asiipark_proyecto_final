@@ -19,7 +19,7 @@
 
 <body>
 	<div class="wrapper bg-white">
-		<nav id="sidebar" class="sidebar js-sidebar bg-white">
+    <nav id="sidebar" class="sidebar js-sidebar bg-white">
 			<div class="sidebar-content js-simplebar bg-white">
 				<a class="sidebar-brand bg-white" href="index.html">
                     <span class="align-middle bg-white"></span>
@@ -34,37 +34,72 @@
                 </a>
 			</li>
 			<li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="usuario.php">
-                    <span class="align-middle">Usuarios</span>
-                </a>
+				<div class="dropdown mt-3 ms-3  ">
+					<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Usuario		
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="usuario_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="usuario_contenido.php">Contenido</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="sidebar-item bg-white">
+				<div class="dropdown mt-3 ms-3  ">
+					<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Visitantes
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="visitantes_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="">Contenido</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="sidebar-item bg-white">
+				<div class="dropdown mt-3 ms-3  ">
+					<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Vehiculos	
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="vehiculos_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="">Contenido</a></li>
+					</ul>
+				</div>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="visitantes.php">
-                    <span class="align-middle">Visitantes</span>
-                </a>
+				<div class="dropdown mt-3 ms-3  ">
+					<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Apartamentos
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="apartamento_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="">Contenido</a></li>
+					</ul>
+				</div>
 			</li>
             <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="vehiculos.php">
-                    <span class="align-middle">vehiculo</span>
-                </a>
+				<div class="dropdown mt-3 ms-3  ">
+					<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Residentes	
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="residentes_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="residentes_contenido.php">Contenido</a></li>
+					</ul>
+				</div>
 			</li>
-            <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="apartamento.php">
-                    <span class="align-middle">Apartamento</span>
-                </a>
+			<li class="sidebar-item bg-white">
+				<div class="dropdown mt-3 ms-3  ">
+					<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+						Parqueadero	
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="parqueaderos_registro.php">Registrar</a></li>
+						<li><a class="dropdown-item" href="">Contenido</a></li>
+					</ul>
+				</div>
 			</li>
-            <li class="sidebar-item ">
-                <a class="sidebar-link mt-4 bg-white" href="index.html">
-                    <span class="align-middle">Residentes</span>
-                </a>
-			</li>
-            <li class="sidebar-item bg-white">
-                <a class="sidebar-link mt-4 bg-white" href="parqueaderos.php">
-                    <span class="align-middle">Parqueadero</span>
-                </a>
-			</li>
-
-				</ul>
+		</ul>
 		</nav>
 		<div class="main">
 			<nav class="navbar navbar-expand bg-navbar">

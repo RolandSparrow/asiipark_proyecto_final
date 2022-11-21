@@ -294,10 +294,8 @@
                                         </span>
                                     </th>
                                     <th>Documento de Identidad</th>
-                                    <th>Tipo de usuario</th>
                                     <th>Nombre</th>
                                     <th>Apellido</th>
-                                    <th>Dirección</th>
                                     <th>Teléfono</th>
                                     <th>Celular</th>
                                     <th>Correo</th>
@@ -314,15 +312,13 @@
                                             <label for="checkbox1"></label>
                                         </span>
                                     </td>
-                                    <td>1001315981</td>
-                                    <td>Administrador</td>
-                                    <td>Miguel</td>
-                                    <td>Roldán</td>
-                                    <td>Calle 165A #58-30</td>
-                                    <td>7502817</td>
-                                    <td>3228188217</td>
-                                    <td>miguel.roldan@gmail.com</td>
-                                    <td>re activo</td>
+                                    <td>127498742791</td>
+                                    <td>Monica</td>
+                                    <td>Lopez</td>
+                                    <td>739427</td>
+                                    <td>2458188217</td>
+                                    <td>moni.asd@gmail.com</td>
+                                    <td>activo</td>
                                     <td>
                                         <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
                                     </td>
@@ -337,15 +333,13 @@
                                             <label for="checkbox2"></label>
                                         </span>
                                     </td>
-                                    <td>1001315981</td>
-                                    <td>Administrador</td>
-                                    <td>Miguel</td>
-                                    <td>Roldán</td>
-                                    <td>Calle 165A #58-30</td>
-                                    <td>7502817</td>
-                                    <td>3228188217</td>
-                                    <td>miguel.roldan@gmail.com</td>
-                                    <td>re activo</td>
+                                    <td>19123098</td>
+                                    <td>Cesar</td>
+                                    <td>Parra</td>
+                                    <td>788734</td>
+                                    <td>980809898</td>
+                                    <td>cesar.parra@gmail.com</td>
+                                    <td>activo</td>
                                     <td>
                                         <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
                                     </td>
@@ -360,15 +354,13 @@
                                             <label for="checkbox3"></label>
                                         </span>
                                     </td>
-                                    <td>1001315981</td>
-                                    <td>Administrador</td>
-                                    <td>Miguel</td>
-                                    <td>Roldán</td>
-                                    <td>Calle 165A #58-30</td>
-                                    <td>7502817</td>
-                                    <td>3228188217</td>
-                                    <td>miguel.roldan@gmail.com</td>
-                                    <td>re activo</td>
+                                    <td>189732974</td>
+                                    <td>Laura</td>
+                                    <td>Molina</td>
+                                    <td>8080209</td>
+                                    <td>18283038</td>
+                                    <td>Lau.moln@gmail.com</td>
+                                    <td>inactivo</td>
                                     <td>
                                         <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
                                     </td>
@@ -383,15 +375,13 @@
                                             <label for="checkbox4"></label>
                                         </span>
                                     </td>
-                                    <td>1001315981</td>
-                                    <td>Administrador</td>
-                                    <td>Miguel</td>
-                                    <td>Roldán</td>
-                                    <td>Calle 165A #58-30</td>
-                                    <td>7502817</td>
-                                    <td>3228188217</td>
-                                    <td>miguel.roldan@gmail.com</td>
-                                    <td>re activo</td>
+                                    <td>179877797</td>
+                                    <td>Juan Jose</td>
+                                    <td>Lara</td>
+                                    <td>17979898</td>
+                                    <td>188593</td>
+                                    <td>jjraa@gmail.com</td>
+                                    <td>inactivo</td>
                                     <td>
                                         <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
                                     </td>
@@ -407,14 +397,12 @@
                                         </span>
                                     </td>
                                     <td>1001315981</td>
-                                    <td>Administrador</td>
                                     <td>Miguel</td>
                                     <td>Roldán</td>
-                                    <td>Calle 165A #58-30</td>
                                     <td>7502817</td>
                                     <td>3228188217</td>
-                                    <td>miguel.roldan@gmail.com</td>
-                                    <td>re activo</td>
+                                    <td>miguel.r@gmail.com</td>
+                                    <td>inactivo</td>
                                     <td>
                                         <a href="#editEmployeeModal" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Editar">&#xE254;</i></a>
                                     </td>
